@@ -36,7 +36,7 @@ $ sudo mkdir /etc/nginx/tinyurl
 
 ```
 
-$ mv tinyurl.sh /usr/local/bin/tinyurl
+$ sudo chmod +x tinyurl.sh && sudo mv tinyurl.sh /usr/local/bin/tinyurl
 
 ```
 
@@ -44,17 +44,17 @@ $ mv tinyurl.sh /usr/local/bin/tinyurl
   
   It must be run as sudo.
   
-  ```
+ ```
   
-  # Example: 
+ # Example: 
   
-  # Generate tinyurl for http://foo.bar/pages/page/post.php
+ # Generate tinyurl for http://foo.bar/pages/page/post.php
   
-  $ sudo tinyurl /pages/page/post.php
+ $ sudo tinyurl /pages/page/post.php
   
-  # output
+ # output
   
-  /s/sEvMFMQB
+ /s/sEvMFMQB
  
   ```
 
